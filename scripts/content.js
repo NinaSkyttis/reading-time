@@ -8,11 +8,14 @@ if (article) {
     const words = text.matchAll(wordMatchRegExp);
     
     const currentUrl = window.location.href;
-    console.log('Here is the URL: ', currentUrl);
+    console.log('Here is the URL2: ', currentUrl);
 
-    const websiteHeader = document.querySelector('#websiteLink')
+    const websiteHeader = document.getElementById('#websiteHeader');
+    const h1 = document.querySelector('h1');
+    console.log('this is your h1: ', h1)
     console.log('websiteheader: ', websiteHeader);
-    websiteHeader.innerHTML = 'currentUrl';
+    console.log('websiteheader2: ', websiteHeader);
+    websiteHeader.innerHTML = currentUrl;
 
 
 

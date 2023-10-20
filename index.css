@@ -1,28 +1,93 @@
 body {
-    background: #fafafa;
+    background: #ece0d4;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    font-family: 'DM Sans', sans-serif;
+    padding-right: 20px;
 
+}
+
+h1 {
+    color: #eb80d5;
+    font-size: 76px;
+    margin-bottom: 10px;
+    text-align: end;
 }
 
 #cartObj {
     background: white;
+    /* display: flex;
+    align-items: center; */
     border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; 
+    box-shadow: rgba(26, 25, 25, 0.04) 0px 6px 24px 0px, rgba(0, 0, 0, 0.03) 0px 0px 0px 1px;  
     font-size: 14px;
     width: 400px;
-    min-height: 400px;
+    /* min-height: 400px; */
     padding: 10px 25px;
+    margin: 10px 0px;
+}
+
+#headerWrapper {
+    margin: 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* font-weight: bolder; */
+}
+
+#headerWrapper a:hover {
+    cursor: pointer;
+    /* color: #eb80d5; */
+    /* font-weight: bold; */
+    letter-spacing: 0.05em;
+}
+
+#headerWrapper p {
+    display: none;
+}
+
+
+
+
+.product-wrapper {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #dadada;
+    /* border-radius: 8px; */
+    padding: 10px 10px;
+}
+
+
+.product-wrapper #productName {
+    margin: 5px 0px;
+    font-size: 16px;
 }
 
 #productAndPrice {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
+    /* display: flex;*/
+    /* padding: 10px; 
+    background: lightsalmon; */
 }
 
-#websiteLink {
-    font-size: 36px;
+#price {
+    font-weight: bold;
+    font-size: 18px;
+    background: #e6793b;
+    padding: 8px 7px 5px 13px;
+    border-radius: 2px 22px 20px 12px;
+    color: rgb(245, 240, 240);
+    margin: 0px;
+    width: 80px;
+}
+
+#websiteHeader {
+    font-size: 18px;
+    padding: 15px 0px;
     text-decoration: none;
     color: black;
+}
+
+#productImage {
+    height: 100px;
 }
